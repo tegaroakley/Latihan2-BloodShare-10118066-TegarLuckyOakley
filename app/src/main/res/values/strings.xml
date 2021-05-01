@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Latihan2-Akb</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="repassword">Retype Password</string>
+    <string name="email">Email</string>
+    <string name="phone">Phone Number</string>
+    <string name="login">LOGIN</string>
+    <string name="fb">CONNECT WITH FACEBOOK</string>
+    <string name="home">Home Address</string>
+    <string name="location">Default Location</string>
+    <string name="terms">Agree with Terms and Conditions</string>
+    <string name="reg">REGISTER</string>
+    <string name="desc1">Thank you for registering with us. One more</string>
+    <string name="desc2">step, you need to check your email</string>
+    <string name="desc3">to active your account</string>
+    <string name="verify">VERIFY</string>
+    <string name="desc4">We have send verification code to your email</string>
+    <string name="nama">Tegar Lucky Oakley</string>
+    <string name="bt">Blood Type : B</string>
+    <string name="entercode">enter verification code here</string>
+
+    <string-array name="blood_type">
+        <item>Blood Type</item>
+    </string-array>
+    <string-array name="reshus">
+        <item>Reshus</item>
+    </string-array>
+    <string-array name="job">
+        <item>Job</item>
+    </string-array>
+
+</resources>

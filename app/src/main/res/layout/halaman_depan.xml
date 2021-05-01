@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".halaman_depan"
+    android:background="@color/light_blue"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:paddingHorizontal="100dp"
+        android:paddingTop="75dp">
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:src="@mipmap/ic_welcome_logo"
+            android:contentDescription="TODO" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:paddingHorizontal="20dp"
+        android:orientation="vertical">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:textColorHint="@color/white"
+            android:hint="@string/username"
+            android:backgroundTint="@color/white"
+            android:textColor="@color/white">
+
+        </EditText>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:textColorHint="@color/white"
+            android:hint="@string/password"
+            android:backgroundTint="@color/white"
+            android:textColor="@color/white">
+
+
+        </EditText>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:paddingHorizontal="20dp"
+        android:paddingVertical="10dp"
+        android:gravity="center">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="@string/login"
+            android:textColor="@color/white"
+            android:background="@drawable/bg_button_dpn"
+            android:textSize="15dp"
+            android:clickable="true">
+
+        </androidx.appcompat.widget.AppCompatButton>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="20dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="OR"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="15dp"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:paddingHorizontal="20dp"
+        android:paddingVertical="10dp"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/bg_button_dpn"
+            android:drawableLeft="@mipmap/ic_welcome_fb_login"
+            android:paddingHorizontal="70dp"
+            android:textColor="@color/white"
+            android:textSize="15dp"
+            android:text="@string/fb"
+            android:clickable="true">
+
+        </androidx.appcompat.widget.AppCompatButton>
+        
+        
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="doesn't have account? "
+            android:textSize="13dp"
+            android:textColor="@color/white"
+            android:textAlignment="center"
+            android:paddingLeft="110dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Register"
+            android:textSize="13dp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:onClick="pindah1"/>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
